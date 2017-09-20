@@ -17,4 +17,24 @@ Regular users can (on their own aliases):
 - Request new email aliases that will be approved by admins
 
 ## Setup instructions
-WIP
+
+This is the raw way to setup your development environment.
+
+### Database
+
+We run MySQL because legacy, so install MySQL and then run this:
+
+```
+echo 'create database email;' | mysql -u root
+mysql -u root email < scripts/create-db.sql
+```
+
+### Haskell
+
+Install `stack` and then run:
+
+```
+stack install
+```
+
+If you get any error or get stuck, please file an issue.
