@@ -14,7 +14,8 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Lib
-  build-depends:       base >= 4.7 && < 5,
+  build-depends:       aeson >= 1.1.2.0,
+                       base >= 4.7 && < 5,
                        digestive-functors >= 0.8.2.0,
                        digestive-functors-lucid >= 0.0.0.5,
                        lucid >= 2.9.8.1,
@@ -27,7 +28,8 @@ executable email-dtek-se-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base
+  build-depends:       aeson >= 1.1.2.0
+                     , base
                      , email-dtek-se
                      , mysql-simple
                      , scotty
