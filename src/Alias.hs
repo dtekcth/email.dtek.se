@@ -1,9 +1,7 @@
-{-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE DeriveGeneric #-}
--- | Module containing
+-- | Module containing the Alias related stuff.
 
 module Alias (
-  -- * Types
     Alias
   , toAlias
   , aliasId
