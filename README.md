@@ -1,3 +1,9 @@
+# @dtek.se email aliases are currently not supported
+
+This project is currently put on ice until we either choose revive the service or until we decide that we're never going to provide email aliases again.
+Until then, there is not much to see here.
+
+
 # email.dtek.se
 Manage your dtek email alias
 
